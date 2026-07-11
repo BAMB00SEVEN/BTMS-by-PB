@@ -282,7 +282,6 @@ BTMS-project/
 ├── assets/
 │   ├── sensor_placement_diagram.png
 │   └── temperature_comparison_graph.png
-├── docs/
 └── data/
     
 ```
