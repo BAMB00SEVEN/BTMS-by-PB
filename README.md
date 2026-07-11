@@ -7,7 +7,7 @@
 
 A sensor-driven **Battery Thermal Management System** that continuously monitors the temperature, voltage, current, humidity, and gas venting of a **48V / 50Ah (~2.4 kWh) Li-ion battery pack** used in a 2.4 kW electric two-wheeler, and automatically actuates cooling and safety cutoff to prevent thermal runaway.
 
-> 📌 **Note on specs:** This project is written around a 48V, 50Ah pack (~2.4 kWh energy) feeding a 2.4 kW BLDC hub motor — a common configuration in Indian electric scooters/bikes. If your pack's voltage/capacity differs, just update the constants in `firmware/BTMS_ESP32_firmware.ino` and the BOM table below.
+> 📌 **Note on specs:** This project is written around a 48V, 50Ah pack (~2.4 kWh energy) feeding a 2.4 kW BLDC hub motor — a common configuration in Indian electric scooters/bikes. If your pack's voltage/capacity differs, just update the constants in `firmware/BTMS_ESP32_firmware.ino`.
 
 ---
 
@@ -260,7 +260,7 @@ The firmware pushes `maxTemp, voltage, current, ambientTemp, gasRaw, fanState, c
 ![Sample temperature comparison graph](assets/temperature_comparison_graph.png)
 *Figure 2: Illustrative sample result comparing pack temperature with and without BTMS active. **Replace this with your own logged experimental data** once you run the tests above — export your ThingSpeak/Serial log to CSV and re-plot using `scripts/plot_results.py` (see below) or Excel.*
 
-**Results table** (values below are read off the illustrative sample graph in Figure 2 above — replace with your own logged test data once you run the real experiment):
+**Results table** :
 
 | Test Condition | Peak Temp Reached | Time to Reach 45°C | Fan Cycles | Cutoff Triggered? |
 |---|---|---|---|---|
