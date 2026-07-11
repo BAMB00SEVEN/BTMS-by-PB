@@ -1,0 +1,11 @@
+timestamp_min,condition,temperature_c
+0,without_btms,28.0
+5,without_btms,32.1
+10,without_btms,36.5
+15,without_btms,41.0
+20,without_btms,45.8
+0,with_btms,28.0
+5,with_btms,31.4
+10,with_btms,35.0
+15,with_btms,38.9
+20,with_btms,41.2
