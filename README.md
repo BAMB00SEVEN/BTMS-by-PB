@@ -283,9 +283,8 @@ BTMS-project/
 │   ├── sensor_placement_diagram.png
 │   └── temperature_comparison_graph.png
 ├── docs/
-│   └── (add datasheets, circuit diagram exports, report PDF here)
 └── data/
-    └── (add your test_logs.csv here after experiments)
+    
 ```
 
 ---
